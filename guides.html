@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">The Programming Website</a>
+        <div>
+            <a href="gettingstarted.html">Getting Started</a>
+            <a class="active" href="guides.html">Guides</a>          
+            <a href="aboutme.html">About Me</a>
+        </div>
+    </nav>
+    <div class="box1">
+        <h1>Guides</h1>
+        <p>
+            Here are some Guides of basic things you'll need while working on Websites, 
+            if you're already familiar with those, maybe take a look at <a href="aboutme.html">About Me</a>,
+            where you can find some of my already written codes
+        </p>
+    </div>
+    <div class="box2">
+        <h3>Contents</h3>
+        <br>
+        <a href="#img">Insert Pictures</a>
+        <a href="#links">Insert Links</a>
+        <a href="#flex">Using Flex</a>
+        <a href="#background">Add Background Image</a>
+        <br>
+        <i><p>Press the blue titles to jump to the part you want to look at :D</p></i>
+    </div>
+    <div class="box2">
+        <div id="img" class="anchor"></div>
+        <h3>Insert Pictures</h3>
+        <img src="images/img.png" alt="">
+        <p>
+            To insert an image, you just need to type
+            the line marked in red above and insert the
+            path to the image you want to use.
+        </p>
+        <br>
+        <h4>Changing Picture Size</h4>
+        <img src="images/imgsize.png" alt="">
+        <p>
+            To change the size of your picture just use
+            the width and height in pixels like shown above.
+            You can also use only one of them and the aspect 
+            ratio of your picture will stay the same.
+        </p>
+    </div>
+    <div class="box2">
+        <div id="links" class="anchor"></div>
+        <h3>Insert Links</h3>
+        <img src="images/link.png" alt="">
+        <p>
+            To insert a Link, we use the "a" Tag, you just put
+            in your Link behind the "href" and inside the """"
+            and inside the Tag (between the ><) your write what
+            should be seen on the website
+        </p>
+    </div>
+    <div class="box2">
+        <div id="flex" class="anchor"></div>
+        <h3>Using Flex</h3>
+        <img src="images/flex.png" alt="">
+        <p>
+            To "activate" Flex, you have do type "display: flex;" into your
+            css file. After you've done this, everything inside your
+            "Flex Box" will be flexible. You can change the direction by using
+            "flex-direction: row, reverse-row, column, reverse-column;"
+        </p>
+    </div>
+    <div class="box2">
+        <div id="background" class="anchor"></div>
+        <h3>Add Background Image</h3>
+        <img src="images/backgroundguide.png" alt="">
+        <p>
+            To add a Background image you have to add 
+            "background-image: url(background.png);"
+            to your code and replace "background.png"
+            with the path of your background image
+        </p>
+    </div>
+    <br>
+</body>
+</html>

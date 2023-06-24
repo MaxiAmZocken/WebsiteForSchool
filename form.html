@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Website </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html">The Programming Website</a>
+        <div>
+            <a href="gettingstarted.html">Getting Started</a>
+            <a href="guides.html">Guides</a>          
+            <a href="aboutme.html">About Me</a>
+        </div>
+    </nav>
+    <div class="box1">
+        <h1>Thanks for your feedback</h1>
+    </div>
+    <div class="box2">
+        <h3>Feedback Form</h3>
+        <form action="mailto:max@auto-heyer.de" method="post" media="all" enctype="text/plain">
+            Name : <input type="text" size="15"><br><br>
+            E-Mail : <input type="text" size="15"><br><br>
+            <input type="radio" name="like" size="15"> I like the website<br>
+            <input type="radio" name="like" size="15"> I don't like the  website<br>
+            <input type="radio" name="like" size="15"> I hate the website<br>
+            <br>
+            <textarea name="FeedbackText" cols="70" rows="10" placeholder="write your feedback here :)"></textarea>
+            <br><br>
+            <p>
+                How many stars would you give our website ?
+            </p>
+            <select name="happy" size="1">
+                <option value="1">⭐⭐⭐⭐⭐</option>
+                <option value="2">⭐⭐⭐⭐</option>
+                <option value="3">⭐⭐⭐</option>
+                <option value="4">⭐⭐</option>
+                <option value="5">⭐</option>
+            </select>
+            <br><br>
+            <input class="shake sendform" type="submit" name="send" value="Send the form">
+        </form>
+    </div>
+    <br>
+</body>
+</html>
